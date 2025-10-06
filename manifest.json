@@ -1,0 +1,21 @@
+{
+    "name":"Mi PWA de ejemplo",
+    "short_name":"MiPWA",
+    "start_url":"index.html",
+    "display":"standalone",
+    "background_color":"#FFFFFF",
+    "theme_color":"#16909D",
+    "orientation":"portrait",
+    "icons":[
+        {
+            "src":"icons/icon192.png",
+            "sizes":"128x128",
+            "type":"image/png"
+        },
+        {
+            "src":"icons/icon512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+}

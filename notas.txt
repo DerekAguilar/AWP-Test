@@ -1,0 +1,2 @@
+display standalone significa que se muestra en nueva ventana
+puede configurarse color de fondo background_color, de tema theme_color, orientación (ej.: portrait) y otros como el ícono
