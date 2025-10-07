@@ -3,9 +3,7 @@
 // 1. Nombre del caché y archivos a cachear
 const CACHE_NAME='mi-cache-v1';
 const urlsToCache=[
-    "index.js",
-    "style.css",
-    "app.js",
+    "index.html",
     "offline.html"
 ];
 
