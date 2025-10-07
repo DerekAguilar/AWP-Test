@@ -14,5 +14,13 @@
     <h1>Bienvenido a esta AWP</h1>
     <p>Puede instalarse como una app en el celular</p>
     <button onclick="alert('Saludos desde la AWP')">Click me</button>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker
+                .register("sw.js")
+                .then(()=>console.log("Service worker registrado"))
+                .catch(err=>console.error("Error al registrar el SW: ",err));
+        }
+    </script>
 </body>
 </html>
