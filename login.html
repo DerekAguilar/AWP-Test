@@ -14,5 +14,14 @@
         <input type="text" id="password" placeholder="Ingresa tu contraseña...">
         <button type="submit">Iniciar sesión</button>
     </form>
+    <script>
+        if (!navigator.online) {
+            window.location.href="offline.html";
+        }
+
+        window.addEventListener("offline",()=>{
+            window.location.href="offline.html";
+        })
+    </script>
 </body>
 </html>
