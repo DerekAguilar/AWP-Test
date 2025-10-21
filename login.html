@@ -12,16 +12,7 @@
         <input type="text" id="user" placeholder="ej.: user123">
         <label for="password">Contraseña</label>
         <input type="text" id="password" placeholder="Ingresa tu contraseña...">
-        <button type="submit">Iniciar sesión</button>
+        <button>Iniciar sesión</button>
     </form>
-    <script>
-        if (!navigator.online) {
-            window.location.href="offline.html";
-        }
-
-        window.addEventListener("offline",()=>{
-            window.location.href="offline.html";
-        })
-    </script>
 </body>
 </html>
